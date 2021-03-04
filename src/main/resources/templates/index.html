@@ -34,6 +34,17 @@
 
         </div>
     </div>
+<div class="container div_mit_background justify-content-center">
+    <p>List of previous searches</p>
+    <div class="list-group" th:each="zip:${zipCodes}">
+        <div class"list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+            <h5><span th:text="${zipCode.zipCode}"></span></h5>
+
+        </div>
+    </div>
+</div>
+</div>
 
 </div>
 
